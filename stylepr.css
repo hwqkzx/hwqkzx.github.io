@@ -1,5 +1,6 @@
 body {
 	background-color: #121212;
+	overflow-x: hidden;
 }
 
 a {
@@ -161,7 +162,7 @@ h5 {color: #ffffff;
 
 
 .WebProcess {
-	height:836px;
+	height:900px;
 	width: 100%;
 }
 
