@@ -4,10 +4,10 @@ $( document ).ready(function(){
 		$('.header__topbar-email-button').toggleClass('email-clicked');
 	});
 
-	$( ".item-hovered" ).hover(function(){ // задаем функцию при наведении курсора на элемент	
-		$( ".body__wrap-hovered" ).css( "display", "block" ) // задаем цвет заднего фона
-	}, function(){ // задаем функцию, которая срабатывает, когда указатель выходит из элемента 	
-		$( ".body__wrap-hovered" ).css( "display", "none" ) // задаем цвет заднего фона
+	$( ".item-hovered" ).hover(function(){ 	
+		$( ".body__wrap-hovered" ).css( "display", "block" ) 
+	}, function(){ 	
+		$( ".body__wrap-hovered" ).css( "display", "none" ) 
 	});
 
 	$('.header__topbar-email-button').click(function() {
