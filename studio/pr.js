@@ -4,4 +4,3 @@ $("a").click(function () {
     $('html, body').animate({ scrollTop: destination }, 600);
     return false;
 });
-
